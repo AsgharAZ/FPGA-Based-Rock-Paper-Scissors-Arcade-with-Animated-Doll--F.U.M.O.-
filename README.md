@@ -1,7 +1,7 @@
 # Project X - The Playful R.P.S Machine and F.U.M.O!
 
 ## Introduction
-Project X aims to create an interactive arcade machine for playing Rock-Paper-Scissors (R.P.S) against a computerized opponent represented by the Fanciful Ultra-reliable Machinating Obsequious (F.U.M.O) doll. The project combines hardware interfacing, software programming, and mechanical design to deliver a unique gaming experience.
+Project X aims to create an interactive arcade machine for playing Rock-Paper-Scissors (R.P.S) against a computerized opponent represented by the Fanciful Ultra-reliable Machinating Obsequious (F.U.M.O) doll. The project combines hardware interfacing, software programming, and mechanical design to deliver a unique gaming experience. Please read the report for in-depth explanation and documentation of each step.
 
 ## User Interaction
 Upon powering up, the player is greeted with a title screen. The game cycles through rock, paper, and scissors animations until a player input is received. The player's choice is then compared with the computer's, and the outcome is displayed on a VGA monitor alongside the F.U.M.O doll's reaction.
@@ -19,6 +19,20 @@ The output is twofold: visual feedback through a VGA monitor and physical feedba
 
 ## Challenges and Reflections
 The project presented a steep learning curve, particularly in understanding sequential logic and FSMs. The team gained valuable insights into Verilog programming and the intricacies of parallel and sequential programming.
+Following are our State Diagrams
+
+<p align="center">
+  <img src="OtherStuff_Grading_Proposal/Images/UserDiagram.png" alt="UserDiagram">
+</p>
+
+<p align="center">
+  <img src="OtherStuff_Grading_Proposal/Images/VGA_State.png" alt="VGA State">
+</p>
+
+<p align="center">
+  <img src="OtherStuff_Grading_Proposal/Images/Main_State_Transition.png" alt="Main State Transition">
+</p>
+
 
 ## Code Repository
 - Main Project: [Google Docs Link](https://docs.google.com/document/d/1mMNt7o-MtOfh-CjJVZQpDK4PZY1l2mabpcyGlY5NrsM/edit?usp=sharing)
@@ -26,7 +40,7 @@ The project presented a steep learning curve, particularly in understanding sequ
 - Servo Operation Code: [Google Docs Link](https://docs.google.com/document/d/1ai2WHQsPWw-76Ts1HpeX_niGanEwe_eDRgd4QtKREF4/edit?usp=sharing)
 
 ## Acknowledgements
-A heartfelt thanks to everyone involved in bringing this ambitious project to life. The team's diverse strengths and personalities contributed to the project's success and made it a memorable experience.
+A heartfelt thanks to everyone involved in bringing this ambitious project to life. The team's diverse strengths and personalities contributed to the project's success and made it a memorable experience. One of the main inspiration of this project was this youtube [video](https://www.youtube.com/watch?v=Wpd5-Yd4p3M)
 
 ---
 
