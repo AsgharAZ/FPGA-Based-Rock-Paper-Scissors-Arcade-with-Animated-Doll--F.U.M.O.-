@@ -3,6 +3,10 @@
 ## Introduction
 Project X aims to create an interactive arcade machine for playing Rock-Paper-Scissors (R.P.S) against a computerized opponent represented by the Fanciful Ultra-reliable Machinating Obsequious (F.U.M.O) doll. The project combines hardware interfacing, software programming, and mechanical design to deliver a unique gaming experience. Please read the report for in-depth explanation and documentation of each step.
 
+<p align="center">
+  <img src="OtherStuff_Grading_Proposal/Images/Project_Exhibition.jpg" alt="Our Project Exhibition">
+</p>
+
 ## User Interaction
 Upon powering up, the player is greeted with a title screen. The game cycles through rock, paper, and scissors animations until a player input is received. The player's choice is then compared with the computer's, and the outcome is displayed on a VGA monitor alongside the F.U.M.O doll's reaction.
 
@@ -11,6 +15,10 @@ Four push buttons interface with an FPGA Basys-3 board to serve as inputs for Ro
 
 ## Output Design
 The output is twofold: visual feedback through a VGA monitor and physical feedback through the F.U.M.O doll's movements. The VGA display is divided into a 20x15 grid, with each cell being 32x32 pixels. The doll's movements are controlled by servos, which are programmed to reflect the game's status, such as celebrating a win or sulking in defeat.
+
+<p align="center">
+  <img src="OtherStuff_Grading_Proposal/Images/Animation.png" alt="Animation Plan">
+</p>
 
 ## Implementation Details
 - **VGA Operation**: Implemented using a pixel generator module and a VGA top module to manage screen displays based on the game state.
@@ -21,16 +29,20 @@ The output is twofold: visual feedback through a VGA monitor and physical feedba
 The project presented a steep learning curve, particularly in understanding sequential logic and FSMs. The team gained valuable insights into Verilog programming and the intricacies of parallel and sequential programming.
 Following are our State Diagrams
 
+### User Diagram
 <p align="center">
   <img src="OtherStuff_Grading_Proposal/Images/UserDiagram.png" alt="UserDiagram">
 </p>
 
-<p align="center">
-  <img src="OtherStuff_Grading_Proposal/Images/VGA_State.png" alt="VGA State">
-</p>
+### Main State Transition Diagram
 
 <p align="center">
   <img src="OtherStuff_Grading_Proposal/Images/Main_State_Transition.png" alt="Main State Transition">
+</p>
+
+### VGA State Diagram
+<p align="center">
+  <img src="OtherStuff_Grading_Proposal/Images/VGA_State.png" alt="VGA State">
 </p>
 
 
