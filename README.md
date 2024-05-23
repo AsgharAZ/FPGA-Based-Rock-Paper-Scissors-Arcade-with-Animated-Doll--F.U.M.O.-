@@ -29,16 +29,20 @@ The output is twofold: visual feedback through a VGA monitor and physical feedba
 The project presented a steep learning curve, particularly in understanding sequential logic and FSMs. The team gained valuable insights into Verilog programming and the intricacies of parallel and sequential programming.
 Following are our State Diagrams
 
+### User Diagram
 <p align="center">
   <img src="OtherStuff_Grading_Proposal/Images/UserDiagram.png" alt="UserDiagram">
 </p>
 
-<p align="center">
-  <img src="OtherStuff_Grading_Proposal/Images/VGA_State.png" alt="VGA State">
-</p>
+### Main State Transition Diagram
 
 <p align="center">
   <img src="OtherStuff_Grading_Proposal/Images/Main_State_Transition.png" alt="Main State Transition">
+</p>
+
+### VGA State Diagram
+<p align="center">
+  <img src="OtherStuff_Grading_Proposal/Images/VGA_State.png" alt="VGA State">
 </p>
 
 
